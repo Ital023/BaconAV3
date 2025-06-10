@@ -9,6 +9,8 @@ public class Actor {
 
     private final Set<Connection> connections = new HashSet<>();
 
+    public record Connection(Actor actor, String movie) {}
+
     public Actor(String name) {
         this.name = name;
     }
