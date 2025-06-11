@@ -1,8 +1,11 @@
-# 🥓 Six Degrees of Bacon – Spring Boot Application
+# 🥓 Six Degrees of Bacon – Avaliação AV3 Italo Miranda
 
-![Java](https://img.shields.io/badge/java-%23151737.svg?style=for-the-badge&logo=openjdk&logoColor=white)  
-![Spring Boot](https://img.shields.io/badge/spring_boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)  
-![OpenCSV](https://img.shields.io/badge/OpenCSV-00ADD8.svg?style=for-the-badge)  
+![Descrição da imagem](https://d9hhrg4mnvzow.cloudfront.net/cadastro.fbuni.edu.br/nucleodetecnologia/1786d883-fb-uni_109d03s000000000000028.png)
+
+
+![Java](https://img.shields.io/badge/java-%23151737.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
+![Spring Boot](https://img.shields.io/badge/spring_boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) 
+![OpenCSV](https://img.shields.io/badge/OpenCSV-00ADD8.svg?style=for-the-badge) 
 ![Jackson](https://img.shields.io/badge/Jackson-%234F3BCE.svg?style=for-the-badge)
 
 
@@ -75,7 +78,7 @@ Este projeto implementa a “Lei de Bacon” (Six Degrees of Kevin Bacon) usando
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java 21**
+- **Java 17**
 - **Spring Boot**
 - **OpenCSV** (leitura de CSV)
 - **Jackson Databind** (parsing JSON embutido)
@@ -84,4 +87,38 @@ Este projeto implementa a “Lei de Bacon” (Six Degrees of Kevin Bacon) usando
 ---
 
 ## 📂 Estrutura do Projeto
+- `src/`
+    - `main/`
+        - `java/io/github/ital023/bacon/`
+            - `models/`
+                - `Actor.java`
+                - `CastMember.java`
+            - `service/`
+                - `BaconService.java`
+            - `controller/`
+                - `BaconController.java`
+                - `dto/`
+                    - `ConnectionRequestDto.java`
+                    - `ConnectionResponse.java`
+            - `BaconItaloMirandaAv3FbuniApplication.java`
+        - `resources/`
+            - `tmdb_5000_credits.csv`
+
+
+---
+
+## 🤝 Colaborador
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Ital023" title="GitHub – Ítalo Miranda">
+        <img src="https://avatars.githubusercontent.com/u/113559117?v=4" width="100px;" alt="Foto do Ítalo"/><br>
+        <sub>
+          <b>Ítalo Miranda</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
